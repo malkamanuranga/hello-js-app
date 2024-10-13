@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const message = document.getElementById('message');
 
     changeTextButton.addEventListener('click', () => {
-        message.textContent = 'Text Changed!';
-        alert('Button Clicked!');
+        message.textContent = 'Text Changed!'; // Changed text
+        alert('Button Clicked!'); // Alert message when button is clicked
     });
 });
